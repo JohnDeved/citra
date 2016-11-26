@@ -63,6 +63,10 @@ use_scaled_resolution =
 # 0 (default): Off, 1: On
 use_vsync =
 
+#Whether to toggle frame limiter on or off.
+# 0: Off , 1  (default): On
+toggle_framelimit =
+
 [Layout]
 # Layout for the screen inside the render window.
 # 0 (default): Default Top Bottom Screen, 1: Single Screen Only, 2: Large Screen Small Screen
