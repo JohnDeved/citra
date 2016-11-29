@@ -166,9 +166,9 @@ bool RasterizerCacheOpenGL::BlitTextures(GLuint src_tex, GLuint dst_tex,
         return false;
     }
 
-    glBlitFramebuffer(src_rect.left, src_rect.top, src_rect.right, src_rect.bottom, dst_rect.left,
-                      dst_rect.top, dst_rect.right, dst_rect.bottom, buffers,
-                      buffers == GL_COLOR_BUFFER_BIT ? GL_LINEAR : GL_NEAREST);
+    if (buffers == GL_COLOR_BUFFER_BIT) {
+        glBlitFramebuffer(src_rect.left, src_rect.top, src_rect.right, src_rect.bottom, dst_rect.left, dst_rect.top, dst_rect.right, dst_rect.bottom, buffers, GL_LINEAR);
+    }
 
     // Restore previous framebuffer bindings
     cur_state.draw.read_framebuffer = old_fbs[0];
