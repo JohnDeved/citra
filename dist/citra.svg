@@ -72,7 +72,7 @@
             c21.982-3.979,60.121-41.057,63.189-63.188C301.86,224.991,178.047,175.398,178.047,175.398z"/>
     </g>
     <linearGradient id="k" gradientUnits="userSpaceOnUse" x1="170.5352" y1="6.3281" x2="170.5351" y2="329.4424">
-        <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.2"/>
+        <stop offset="0" stop-color="#000000" stop-opacity="0.2"/>
         <stop offset="0.4504" stop-color="#908E8E" stop-opacity="0.05"/>
         <stop offset="1" stop-color="#030003" stop-opacity="0.2"/>
     </linearGradient>
