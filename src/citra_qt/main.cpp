@@ -215,7 +215,7 @@ GMainWindow::GMainWindow() : config(new Config()), emu_thread(nullptr) {
             SLOT(OnSwapScreens()));
 
     std::string window_title =
-        Common::StringFromFormat("Citra | %s-%s", Common::g_scm_branch, Common::g_scm_desc);
+        Common::StringFromFormat("Citra | Speedy  %s-%s", Common::g_scm_branch, Common::g_scm_desc);
     setWindowTitle(window_title.c_str());
 
     show();
