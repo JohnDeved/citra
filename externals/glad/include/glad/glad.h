@@ -332,7 +332,7 @@ typedef GLintptr GLvdpauSurfaceNV;
 #define GL_RENDERER 0x1F01
 #define GL_VERSION 0x1F02
 #define GL_EXTENSIONS 0x1F03
-#define GL_NEAREST 0x2601//0x2600 temp remove the ugly lines
+#define GL_NEAREST 0x2600
 #define GL_LINEAR 0x2601
 #define GL_NEAREST_MIPMAP_NEAREST 0x2700
 #define GL_LINEAR_MIPMAP_NEAREST 0x2701
